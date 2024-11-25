@@ -1,0 +1,106 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F4F2EE;
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 8vw;
+    border-bottom: 1px solid #E8E8E8;
+    position: fixed;
+    width: 100vw;
+    background-color: #FFFFFF;
+}
+.logo-search{
+    display: flex;
+}
+.logo{
+    height: 34px;
+    width: 34px;
+    margin-right: 8px ;
+}
+.search-holder{
+    position: relative;
+    
+}
+#search{
+    height: 34px;
+    position: relative;
+    padding-left: 34px;
+    background-color: #EDF3F7;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: all ease 0.2s;
+    width: 280px;
+    margin-right:148px ;
+}
+#search:focus{
+    width: 380px;
+    margin-right:48px ;
+}
+.search-bar-icon{
+    height: 18px;
+    position: absolute;
+    left: 8px;
+    top: 7px;
+}
+
+.nav-icons-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.nav-icon-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80px;
+    height: 52px;
+    transition: all ease 0.1s;
+    cursor: pointer;
+}
+.nav-icon-card:focus{
+    border-bottom: #191919 1px solid;
+}
+.nav-icon-card:hover *{
+    color: #191919;
+    fill: #191919;
+}
+#nav-forbusiness-card{
+    padding-left: 10px;
+    border-left: 1px solid #E8E8E8;
+    width: max-content;
+}
+.nav-icon-card svg{
+    height: 24px;
+    fill: #666666;
+}
+
+.nav-icon-card img{
+    height: 24px;
+    
+}
+#dropdown-icon{
+    height: 8px;
+}
+.nav-icon-card p{
+    font-size: 12px;
+    font-family: -apple-system, system-ui, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    color: #666666;
+}
+.nav-text-drop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,10 @@
+.main{
+    display: grid;
+    grid-template-columns: 225px 555px 300px ;
+}
+
+.rightp-pane{
+    height: 100vh;
+    position: fixed;
+    overflow-y: auto;
+}
