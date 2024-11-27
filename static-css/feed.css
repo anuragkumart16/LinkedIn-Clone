@@ -2,20 +2,141 @@
     display: grid;
     grid-template-columns: 225px 555px 300px;
     margin-top: 76px;
+    gap: 22px;
 }
+
+/* -----------------------------------------left pane------------------------------------------------- */
 .left-pane{
     height: 100%
 }
+
+/* identity holder  css*/
+.identity-holder{
+    border: 1px solid #DFDEDA;
+    /* box-shadow: 0px 0px 1px 0px #DFDEDA; */
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+.cover-img-holder{
+    height: 56px;
+    width: 100%;
+}
+.cover-img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.identity-profile-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.identity-img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: relative;
+    top: -38px;
+    left: 0px;
+    cursor: pointer;
+}
+.identity-name{
+    font-size: 16px;
+    margin-top: -24px;
+    color: #191919;
+    font-weight: 600;
+    cursor: pointer;
+}
+.identity-name:hover{
+    text-decoration: underline #9a5de5;
+}
+.identity-text{
+    font-size: 12px;
+    color: #666666;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+.right-pane {
+    height: 100vh;
+    position: fixed;
+}
+.identity-stat{
+    border-top: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8;
+    padding: 12px 0px;
+}
+.identity-stat > div{
+    padding: 4px 12px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.identity-stat > div:hover{
+    background-color:#F0F0F0 ;
+}
+.identity-stat-p{
+    font-size: 12px;
+    color: #666666;
+    font-weight: 600;
+}
+.identity-stat-p-stat{
+    font-size: 12px;
+    color: #0B66C2;
+    font-weight: 600; 
+}
+.identity-premium{
+    padding: 16px 12px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    cursor: pointer;
+}
+.identity-premium:hover{
+    background-color: #F0F0F0;
+}
+.identity-premium > p{
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+.identity-premium > div{
+    display: flex;
+}
+.identity-premium-text{
+    font-size: 12px;
+    /* margin-top: -24px; */
+    color: #191919;
+    font-weight: 600;
+}
+.identity-premium-img{
+    height: 12px;
+    width: 12px;
+    margin-right: 4px;
+}
+.identity-saved-div{
+    padding: 16px 12px;
+    border-top: 1px solid #E8E8E8;
+    display: flex;
+    cursor: pointer;
+}
+.identity-saved-div:hover{
+    background-color:#F0F0F0;
+}
+.identity-saved-div > img{
+  height: 14px;  
+  width: 10px;
+  margin-right: 6px;
+}
+/* -----------------------------------------feed css--------------------------------------------------- */
+
 .feed {
     height: 100vh;
     overflow-y: auto;
 }
-.rightp-pane {
-    height: 100vh;
-    position: fixed;
-}
-
-
 /* the create post div css lies below */
 .create-post{
     background-color: #FFFFFF;
@@ -34,6 +155,7 @@
     width: 44px;
     border-radius: 50%;
     margin: 4px;
+    cursor: pointer;
 }
 
 .create-post-input {
@@ -44,6 +166,7 @@
     padding: 0px 20px;
     font-size: 16px;
     box-shadow: 0px 0px 1px 0px #CECECE;
+    cursor: pointer;
 }
 .create-post-input:hover{
     background-color: #f3f3f3;
@@ -62,6 +185,7 @@
     justify-content: center;
     flex-direction: row;
     margin-top: 2px;
+    cursor: pointer;
 }
 .create-post-btn-div:hover{
     background-color: #f3f3f3;
@@ -82,5 +206,3 @@
    color: #404040;
 }
 
-
-/*  */
